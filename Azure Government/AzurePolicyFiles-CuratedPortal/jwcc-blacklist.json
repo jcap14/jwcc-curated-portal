@@ -2,7 +2,7 @@
   "mode": "All",
   "policyRule": {
     "if": {
-      "allOf": [
+      "anyOf": [
         {
           "field": "type",
           "like": "microsoft.app/*"
