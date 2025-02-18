@@ -9,6 +9,7 @@
             "microsoft.app/jobs",
             "microsoft.app/managedenvironments",
             "microsoft.avs/privateclouds",
+            "microsoft.communication/communicationservices",
             "microsoft.loadtestservice/loadtests"
           ]
         }
