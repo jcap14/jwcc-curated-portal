@@ -5,15 +5,12 @@
       "anyOf": [
         {
           "field": "type",
-          "like": "microsoft.app/*"
-        },
-        {
-          "field": "type",
-          "like": "microsoft.avs/*"
-        },
-        {
-          "field": "type",
-          "like": "microsoft.loadtestservice/*"
+          "in": [
+            "microsoft.app/jobs",
+            "microsoft.app/managedenvironments",
+            "microsoft.avs/privateclouds",
+            "microsoft.loadtestservice/loadtests"
+          ]
         }
       ]
     },
