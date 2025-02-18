@@ -1,1 +1,25 @@
-
+{
+  "mode": "All",
+  "policyRule": {
+    "if": {
+      "allOf": [
+        {
+          "field": "type",
+          "like": "microsoft.app/*"
+        },
+        {
+          "field": "type",
+          "like": "microsoft.avs/*"
+        },
+        {
+          "field": "type",
+          "like": "microsoft.loadtestservice/*"
+        }
+      ]
+    },
+    "then": {
+      "effect": "deny"
+    }
+  },
+  "parameters": {}
+}
