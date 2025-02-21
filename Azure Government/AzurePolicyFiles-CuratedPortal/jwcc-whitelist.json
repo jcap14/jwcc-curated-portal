@@ -2269,31 +2269,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.notificationhubs/checknamespaceavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.notificationhubs/namespaces*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.notificationhubs/operationresults*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.notificationhubs/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.notificationhubs/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.notificationhubs/resourcetypes*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.notificationhubs/unregister*"
+          "notLike": "microsoft.notificationhubs/*"
         },
         {
           "field": "type",
@@ -2333,39 +2309,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.operationalinsights/clusters*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.operationalinsights/deletedworkspaces*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.operationalinsights/linktargets*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.operationalinsights/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.operationalinsights/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.operationalinsights/querypacks*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.operationalinsights/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.operationalinsights/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.operationalinsights/workspaces*"
+          "notLike": "microsoft.operationalinsights/*"
         },
         {
           "field": "type",
