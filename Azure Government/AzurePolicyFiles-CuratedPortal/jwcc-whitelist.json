@@ -25,35 +25,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.adhybridhealthservice/addsservices*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.adhybridhealthservice/configuration*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.adhybridhealthservice/logs*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.adhybridhealthservice/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.adhybridhealthservice/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.adhybridhealthservice/reports*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.adhybridhealthservice/services*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.adhybridhealthservice/unregister*"
+          "notLike": "microsoft.adhybridhealthservice/*"
         },
         {
           "field": "type",
@@ -145,18 +117,6 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.azurestack/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.azurestack/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.azurestack/registrations*"
-        },
-        {
-          "field": "type",
           "notLike": "microsoft.azurestackhci/clusters*"
         },
         {
@@ -233,143 +193,15 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.cache/checknameavailability*"
+          "notLike": "microsoft.cache/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.cache/locations*"
+          "notLike": "microsoft.capacity/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.cache/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cache/redis*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cache/redisenterprise*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cache/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cache/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/appliedreservations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/calculateexchange*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/calculateprice*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/catalogs*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/checkoffers*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/checkscopes*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/commercialreservationorders*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/exchange*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/listskus*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/reservationorders*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/resourceproviders*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/tenants*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.capacity/validatereservationorder*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cdn/cdnwebapplicationfirewallmanagedrulesets*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cdn/cdnwebapplicationfirewallpolicies*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cdn/checknameavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cdn/checkresourceusage*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cdn/edgenodes*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cdn/operationresults*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cdn/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cdn/profiles*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cdn/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cdn/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cdn/validateprobe*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.cdn/validatesecret*"
+          "notLike": "microsoft.cdn/*"
         },
         {
           "field": "type",
@@ -705,103 +537,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.consumption/aggregatedcost*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/balances*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/budgets*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/charges*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/credits*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/events*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/externalbillingaccounts*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/externalsubscriptions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/forecasts*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/lots*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/marketplaces*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/operationresults*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/operationstatus*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/pricesheets*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/reservationdetails*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/reservationrecommendationdetails*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/reservationrecommendations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/reservationsummaries*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/reservationtransactions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/tags*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/tenants*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/terms*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.consumption/usagedetails*"
+          "notLike": "microsoft.consumption/*"
         },
         {
           "field": "type",
@@ -833,27 +569,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.containerregistry/checknameavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.containerregistry/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.containerregistry/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.containerregistry/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.containerregistry/registries*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.containerregistry/unregister*"
+          "notLike": "microsoft.containerregistry/*"
         },
         {
           "field": "type",
@@ -917,127 +633,19 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.costmanagement/alerts*"
+          "notLike": "microsoft.costmanagement/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.costmanagement/benefitrecommendations*"
+          "notLike": "microsoft.costmanagementexports/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.costmanagement/benefitutilizationsummaries*"
+          "notLike": "microsoft.customerlockbox/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.costmanagement/benefitutilizationsummariesoperationresults*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/budgets*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/calculatecost*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/cloudconnectors*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/dimensions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/exports*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/externalbillingaccounts*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/externalsubscriptions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/forecast*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/generatebenefitutilizationsummariesreport*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/generatereservationdetailsreport*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/query*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/reports*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/reservationdetailsoperationresults*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/tenants*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagement/views*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagementexports/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.costmanagementexports/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.customerlockbox/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.customerlockbox/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.customerlockbox/requests*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.customproviders/associations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.customproviders/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.customproviders/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.customproviders/resourceproviders*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.customproviders/unregister*"
+          "notLike": "microsoft.customproviders/*"
         },
         {
           "field": "type",
@@ -1073,27 +681,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.databox/jobs*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.databox/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.databox/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.databox/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.databox/subscriptions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.databox/unregister*"
+          "notLike": "microsoft.databox/*"
         },
         {
           "field": "type",
@@ -1109,51 +697,11 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.databricks/accessconnectors*"
+          "notLike": "microsoft.databricks/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.databricks/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.databricks/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.databricks/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.databricks/workspaces*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.datafactory/checkazuredatafactorynameavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.datafactory/datafactories*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.datafactory/factories*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.datafactory/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.datafactory/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.datafactory/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.datafactory/unregister*"
+          "notLike": "microsoft.datafactory/*"
         },
         {
           "field": "type",
@@ -1657,143 +1205,15 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.entitlementmanagement/operations*"
+          "notLike": "microsoft.entitlementmanagement/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.entitlementmanagement/register*"
+          "notLike": "microsoft.eventgrid/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.entitlementmanagement/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/domains*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/events*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/eventsubscriptions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/extensiontopics*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/namespaces*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/operationresults*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/operationsstatus*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/partnerconfigurations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/partnerdestinations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/partnernamespaces*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/partnerregistrations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/partnertopics*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/sku*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/systemtopics*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/topics*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/topicspaces*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/topictypes*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventgrid/verifiedpartners*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventhub/availableclusterregions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventhub/checknameavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventhub/checknamespaceavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventhub/clusters*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventhub/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventhub/namespaces*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventhub/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventhub/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventhub/sku*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.eventhub/unregister*"
+          "notLike": "microsoft.eventhub/*"
         },
         {
           "field": "type",
@@ -1817,59 +1237,15 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.fabric/capacities*"
+          "notLike": "microsoft.fabric/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.fabric/locations*"
+          "notLike": "microsoft.features/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.fabric/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.fabric/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.fabric/skus*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.features/featureproviders*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.features/features*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.features/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.features/providers*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.features/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.features/subscriptionfeatureregistrations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.guestconfiguration/guestconfigurationassignments*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.guestconfiguration/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.guestconfiguration/register*"
+          "notLike": "microsoft.guestconfiguration/*"
         },
         {
           "field": "type",
@@ -1897,31 +1273,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.hdinsight/clusterpools*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.hdinsight/clusters*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.hdinsight/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.hdinsight/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.hdinsight/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.hdinsight/resourcetypes*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.hdinsight/unregister*"
+          "notLike": "microsoft.hdinsight/*"
         },
         {
           "field": "type",
@@ -2045,179 +1397,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.insights/actiongroups*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/activitylogalerts*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/alertrules*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/autoscalesettings*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/baseline*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/calculatebaseline*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/components*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/createnotifications*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/datacollectionendpoints*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/datacollectionruleassociations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/datacollectionrules*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/diagnosticsettings*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/diagnosticsettingscategories*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/eventcategories*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/eventtypes*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/extendeddiagnosticsettings*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/generatelivetoken*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/listmigrationdate*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/logdefinitions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/logprofiles*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/logs*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/metricalerts*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/metricbaselines*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/metricdefinitions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/metricnamespaces*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/metrics*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/migratetonewpricingmodel*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/monitoredobjects*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/notificationstatus*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/privatelinkscopeoperationstatuses*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/privatelinkscopes*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/rollbacktolegacypricingmodel*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/scheduledqueryrules*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/telemetry*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/tenantactiongroups*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/tenants*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/topology*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/transactions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/webtests*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/workbooks*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.insights/workbooktemplates*"
+          "notLike": "microsoft.insights/*"
         },
         {
           "field": "type",
@@ -2245,19 +1425,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.inventory/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.inventory/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.inventory/subscriptioninternalproperties*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.inventory/unregister*"
+          "notLike": "microsoft.inventory/*"
         },
         {
           "field": "type",
@@ -3221,79 +2389,11 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.policyinsights/asyncoperationresults*"
+          "notLike": "microsoft.policyinsights/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.policyinsights/attestations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.policyinsights/checkdatapolicycompliance*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.policyinsights/checkpolicyrestrictions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.policyinsights/componentpolicystates*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.policyinsights/eventgridfilters*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.policyinsights/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.policyinsights/policyevents*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.policyinsights/policymetadata*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.policyinsights/policystates*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.policyinsights/policytrackedresources*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.policyinsights/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.policyinsights/remediations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.policyinsights/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.portal/consoles*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.portal/dashboards*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.portal/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.portal/tenantconfigurations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.portal/usersettings*"
+          "notLike": "microsoft.portal/*"
         },
         {
           "field": "type",
@@ -3381,23 +2481,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.recoveryservices/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.recoveryservices/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.recoveryservices/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.recoveryservices/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.recoveryservices/vaults*"
+          "notLike": "microsoft.recoveryservices/*"
         },
         {
           "field": "type",
@@ -3413,27 +2497,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.relay/checknameavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.relay/checknamespaceavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.relay/namespaces*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.relay/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.relay/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.relay/unregister*"
+          "notLike": "microsoft.relay/*"
         },
         {
           "field": "type",
@@ -3717,155 +2781,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.securityinsights/aggregations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/alertrules*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/automationrules*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/billingstatistics*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/bookmarks*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/businessapplicationagents*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/cases*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/confidentialwatchlists*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/contentpackages*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/contentproductpackages*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/contentproducttemplates*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/contenttemplates*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/contenttranslators*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/dataconnectors*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/dataconnectorscheckrequirements*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/enrichment*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/entities*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/entityqueries*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/exportconnections*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/fileimports*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/hunts*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/incidents*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/metadata*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/officeconsents*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/onboardingstates*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/securitymlanalyticssettings*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/settings*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/sourcecontrols*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/threatintelligence*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/triggeredanalyticsruleruns*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/watchlists*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/workspacemanagerassignments*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/workspacemanagerconfigurations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/workspacemanagergroups*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.securityinsights/workspacemanagermembers*"
+          "notLike": "microsoft.securityinsights/*"
         },
         {
           "field": "type",
@@ -3873,35 +2789,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.servicebus/checknameavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.servicebus/checknamespaceavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.servicebus/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.servicebus/namespaces*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.servicebus/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.servicebus/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.servicebus/sku*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.servicebus/unregister*"
+          "notLike": "microsoft.servicebus/*"
         },
         {
           "field": "type",
@@ -3925,39 +2813,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.signalrservice/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.signalrservice/operationresults*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.signalrservice/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.signalrservice/operationstatuses*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.signalrservice/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.signalrservice/signalr*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.signalrservice/skus*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.signalrservice/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.signalrservice/webpubsub*"
+          "notLike": "microsoft.signalrservice/*"
         },
         {
           "field": "type",
@@ -3981,31 +2837,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.solutions/applications*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.solutions/jitrequests*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.solutions/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.solutions/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.solutions/portalregistrypackage*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.solutions/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.solutions/unregister*"
+          "notLike": "microsoft.solutions/*"
         },
         {
           "field": "type",
@@ -4061,43 +2893,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.storage/checknameavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.storage/deletedaccounts*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.storage/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.storage/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.storage/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.storage/resilienciesprogressions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.storage/skus*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.storage/storageaccounts*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.storage/storagetasks*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.storage/usages*"
+          "notLike": "microsoft.storage/*"
         },
         {
           "field": "type",
@@ -4173,303 +2969,27 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.storagesync/deployments*"
+          "notLike": "microsoft.storagesync/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.storagesync/locations*"
+          "notLike": "microsoft.streamanalytics/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.storagesync/operations*"
+          "notLike": "microsoft.subscription/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.storagesync/register*"
+          "notLike": "microsoft.support/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.storagesync/storagesyncservices*"
+          "notLike": "microsoft.synapse/*"
         },
         {
           "field": "type",
-          "notLike": "microsoft.storagesync/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.streamanalytics/clusters*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.streamanalytics/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.streamanalytics/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.streamanalytics/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.streamanalytics/streamingjobs*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.subscription/aliases*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.subscription/cancel*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.subscription/changetenantrequest*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.subscription/enable*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.subscription/policies*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.subscription/rename*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.subscription/subscriptions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.support/checknameavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.support/lookupresourceid*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.support/operationresults*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.support/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.support/operationsstatus*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.support/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.support/services*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.support/supporttickets*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.synapse/checknameavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.synapse/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.synapse/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.synapse/privateendpoints*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.synapse/privatelinkhubs*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.synapse/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.synapse/resourcegroups*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.synapse/skus*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.synapse/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.synapse/userassignedidentities*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.synapse/workspaces*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/apimanagementaccounts*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/availablestacks*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/billingmeters*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/certificates*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/checknameavailability*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/classicmobileservices*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/connectiongateways*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/connections*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/containerapps*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/customapis*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/customhostnamesites*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/deletedsites*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/deploymentlocations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/freetrialstaticwebapps*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/functionappstacks*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/georegions*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/hostingenvironments*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/ishostingenvironmentnameavailable*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/ishostnameavailable*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/isusernameavailable*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/kubeenvironments*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/listsitesassignedtohostname*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/publishingusers*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/recommendations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/resourcehealthmetadata*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/serverfarms*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/sites*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/skus*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/sourcecontrols*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/staticsites*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/unregister*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/validate*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/verifyhostingenvironmentvnet*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/webappstacks*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.web/workerapps*"
+          "notLike": "microsoft.web/*"
         },
         {
           "field": "type",
