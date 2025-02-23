@@ -1185,23 +1185,7 @@
         },
         {
           "field": "type",
-          "notLike": "microsoft.elasticsan/elasticsans*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.elasticsan/locations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.elasticsan/operations*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.elasticsan/register*"
-        },
-        {
-          "field": "type",
-          "notLike": "microsoft.elasticsan/skus*"
+          "notLike": "microsoft.elasticsan/*"
         },
         {
           "field": "type",
