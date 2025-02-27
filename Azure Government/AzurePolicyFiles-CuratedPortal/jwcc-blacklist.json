@@ -13,7 +13,7 @@
             "microsoft.loadtestservice/loadtests"
           ]
         }
-      ]
+      ] 
     },
     "then": {
       "effect": "deny"
